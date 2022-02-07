@@ -1,0 +1,2 @@
+class Cabecera:FormatoLinea() {
+}
