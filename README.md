@@ -1,0 +1,5 @@
+CLASE HORARIO: Almacena el objeto Horario 
+
+INTERFAZ PIDE HORARIO: 
+
+INTERFAZ PINTA HORARIO: 
