@@ -1,4 +1,4 @@
-open  class Horario {
+/*open  class Horariox {
     
     var Horario = mutableListOf<String>()
 
@@ -6,4 +6,4 @@ open  class Horario {
         Horario.addAll(añade)
     }
 
-}
+}*/
