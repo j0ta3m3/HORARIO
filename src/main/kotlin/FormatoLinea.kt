@@ -6,7 +6,11 @@
  */
 
 
-open class FormatoLinea {
+open  class Formatolinea() {
+    var delimitacion = ";"
 
+    open fun formateo(formateo: String): List<String> {
+        return formateo.split(delimitacion)
+    }
 
 }
