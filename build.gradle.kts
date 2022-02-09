@@ -14,6 +14,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation ("de.m3y.kformat:kformat:0.9")
 }
 
 tasks.test {
