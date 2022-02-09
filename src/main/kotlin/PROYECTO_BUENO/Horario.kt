@@ -1,12 +1,6 @@
-package PROYECTO_BUENO
-import PROYECTO_BUENO.format
+package de.m3y.kformat
 
-open class Horario:format{
-
-    var Horario = mutableListOf<String>()
-
-    fun añadir ( añade : List<String> ){
-        Horario.addAll(añade)
-    }
-}
-
+import de.m3y.kformat.Table.BorderStyle.Companion.NONE
+import de.m3y.kformat.Table.BorderStyle.Companion.SINGLE_LINE
+import java.time.LocalDateTime
+import kotlin.math.max

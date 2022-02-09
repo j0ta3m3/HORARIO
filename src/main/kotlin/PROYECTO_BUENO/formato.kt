@@ -5,10 +5,10 @@ package PROYECTO_BUENO
  */
 interface format {
 
-    fun formateo(formateo: String): List<String> {
-        var delimitacion: String = ";"
-        return formateo.split(delimitacion)
-    }
+        fun formateo(formateo: String): List<String> {
+            var delimitacion: String = ";"
+            return formateo.split(delimitacion)
+        }
+
 
 }
-
