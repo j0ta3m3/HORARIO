@@ -1,2 +1,4 @@
-class Lineas:FormatoLinea() {
+class Lineas () : Formatolinea(){
+    var Texto = ""
+    var Lineas = formateo(Texto)
 }
