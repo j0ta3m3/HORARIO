@@ -9,5 +9,6 @@ interface format {
             var delimitacion: String = ";"
             return formateo.split(delimitacion)
         }
-    }
+
+
 }
