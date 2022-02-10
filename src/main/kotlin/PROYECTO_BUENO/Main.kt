@@ -5,8 +5,8 @@ fun main(){
     var horario1 = Horario()
 
     println("Introduzca un horario")
-    var entrada= readLine()
-    Horario().Horario
+    var entrada = readLine().toString()
+    println( Horario().formateo(entrada))
 
 
 

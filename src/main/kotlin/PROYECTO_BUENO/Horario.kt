@@ -11,8 +11,8 @@ class Horario():format{
     var Horario = mutableListOf<String>()
 
     override fun formateo(formateo: String): List<String> {
-        var delimitacion: String = ";"
-        return formateo.split(delimitacion)
+        var lista: List<String> = formateo.split(";")
+        return lista
     }
 
 }
