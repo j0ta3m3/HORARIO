@@ -7,25 +7,28 @@ import de.m3y.kformat.table
 fun main() {
 
 
-    var patata = PedirporPantalla()
-    patata.dameHorario()
+    //   var patata = PedirporPantalla()
+    //   patata.dameHorario()
+
+
+    var array: Array<String> = arrayOf("aaaaaaaaaaaaaaaaa", "bbbbbbbbbbbbbbb", "cccccccccccxxxx")
     var ejemplo = hacerHorario()
     println(ejemplo.ArrayHorario)
 
-   var h = table {
-        header("A", "B", "C", "Long_Header")
+    var h = table {
+        header(array[0])
 
-        row(10, "b...1", 2.1f, "foo")
-        row(20, "b2", 1/3f, "bar")
+        row(array[1])
+        row(array[2])
 
         hints {
-   //         alignment("A", Table.Hints.Alignment.LEFT)
-            precision("C", 2)
-            postfix("C", "%")
-            borderStyle = Table.BorderStyle.SINGLE_LINE // or NONE
+            //   alignment("A", Hints.Alignment.LEFT)
+            //    precision("C", 2)
+            //     postfix("C", "%")
+            borderStyle = Table.BorderStyle.SINGLE_LINE
         }
     }.render(StringBuilder())
 
-print(h)
+    println(h)
 
 }
