@@ -9,20 +9,21 @@ class PedirporPantalla() : LeerHorario {
 
         do {
             var columna: String
-            println("Escriba una columna para rellenar el horario, para terminar escribe end")
+            println("Escriba una columna para rellenar el horario, para terminar escriba en blanco")
             columna = readln()
             if (columna == "") {
                 salir = true
             } else {
-                columna.split(";").toString()
+                 columna = columna.split(";").toString()
+                horarioLleno.Horario.add(columna )
 
-                println(horarioLleno)
             }
 
+            println(horarioLleno.Horario)
 
         } while (salir == false)
         return horarioLleno
-        println(horarioLleno)
+
 
     }
 
