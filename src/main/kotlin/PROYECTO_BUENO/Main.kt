@@ -3,6 +3,7 @@ package PROYECTO_BUENO
 fun main() {
 
 
-var patata = PedirporPantalla()
+    var patata = PedirporPantalla()
     patata.dameHorario()
+
 }
