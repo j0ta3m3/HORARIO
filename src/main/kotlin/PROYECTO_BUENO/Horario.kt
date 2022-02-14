@@ -5,13 +5,13 @@ import de.m3y.kformat.Table.BorderStyle.Companion.SINGLE_LINE
 import java.time.LocalDateTime
 import kotlin.math.max
 
-class Horario():format{
+class Horario() {
 
     var Horario = mutableListOf<String>()
 
     var contador = 0
 
-    override fun formateo(formateo: String): List<String> {
+     fun formateo(formateo: String): List<String> {
         var lista: List<String> = formateo.split(";")
         return lista
     }
@@ -30,5 +30,7 @@ class Horario():format{
         } while (!entrada.isNullOrBlank())
 
     }
+
+
 
 }
