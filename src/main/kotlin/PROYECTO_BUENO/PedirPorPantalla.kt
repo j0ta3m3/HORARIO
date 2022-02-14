@@ -19,9 +19,10 @@ class PedirporPantalla() : LeerHorario {
 
             }
 
-            println(horarioLleno.Horario)
+
 
         } while (salir == false)
+        println(horarioLleno.Horario)
         return horarioLleno
 
 
