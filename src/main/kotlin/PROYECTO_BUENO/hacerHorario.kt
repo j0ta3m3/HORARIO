@@ -6,14 +6,14 @@ class hacerHorario {
     // var ArrayHorario = ArrayList<List<String>>()
     var ArrayHorario = ArrayList<String>()
 
-    fun hacerArray(): ArrayList<String> {
+    /*fun hacerArray(): ArrayList<String> {
 
         for (i in 0..hora.size) {
         ArrayHorario[i] = hora[i]
-            println(ArrayHorario[i])
+         //   println(ArrayHorario[i])
         }
 
-        return ArrayHorario
+       // return ArrayHorario*/
 
         /*val string = "123-654321" **APUNTES DE USO DE SPLIT**
        val parts = string.split("-").toTypedArray()
@@ -21,6 +21,6 @@ class hacerHorario {
        val part2 = parts[1] // 654321*/
     }
 
-}
+
 
 
