@@ -15,10 +15,7 @@ class hacerHorario {
 
        // return ArrayHorario*/
 
-        /*val string = "123-654321" **APUNTES DE USO DE SPLIT**
-       val parts = string.split("-").toTypedArray()
-       val part1 = parts[0] // 123
-       val part2 = parts[1] // 654321*/
+
     }
 
 

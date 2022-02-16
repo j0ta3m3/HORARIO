@@ -10,15 +10,13 @@ fun tablita(listita: Horario) {
     var h = table {
         header(listita.Horario[0])
 
-        row(listita.Horario[1])
-        row(listita.Horario[2])
+        for(i in 0..listita.Horario.size-1)
+        row(listita.Horario[i])
 
         hints {
-            //   alignment("A", Hints.Alignment.LEFT)
-            //    precision("C", 2)
-            //     postfix("C", "%")
             borderStyle = Table.BorderStyle.SINGLE_LINE
         }
+
     }.render(StringBuilder())
 println(h)
 }

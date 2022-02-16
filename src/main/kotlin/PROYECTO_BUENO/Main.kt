@@ -3,29 +3,23 @@ package PROYECTO_BUENO
 
 fun main() {
 
+    fun splitLista(listaMutable: Unit): Array<String> {
 
-       var patata = PedirporPantalla()
-        PintaHorario().tablita(patata.dameHorario())
+        var hola = listaMutable.toString()
+        var hola2 = hola.split(",").toTypedArray()
+        return hola2
+
+    }
+
+    /* val string = "123-654321"
+     val parts = string.split("-").toTypedArray()
+     val part1 = parts[0] // 123
+     val part2 = parts[1] // 654321*/
 
 
-   /* var array: Array<String> = arrayOf("aaaaaaaaaaaaaaaaa", "bbbbbbbbbbbbbbb", "cccccccccccxxxx")
-    var ejemplo = hacerHorario()
-    println(ejemplo.ArrayHorario)
+    var patata = PedirporPantalla()
+    var patata2= splitLista(PintaHorario().tablita(patata.dameHorario()))
+    patata2
 
-    var h = table {
-        header(array[0])
-
-        row(array[1])
-        row(array[2])
-
-        hints {
-            //   alignment("A", Hints.Alignment.LEFT)
-            //    precision("C", 2)
-            //     postfix("C", "%")
-            borderStyle = Table.BorderStyle.SINGLE_LINE
-        }
-    }.render(StringBuilder())
-
-    println(h)*/
 
 }
