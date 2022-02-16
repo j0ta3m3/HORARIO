@@ -1,17 +1,14 @@
 package PROYECTO_BUENO
 
-import de.m3y.kformat.Table
-import de.m3y.kformat.table
-
 
 fun main() {
 
 
-    //   var patata = PedirporPantalla()
-    //   patata.dameHorario()
+       var patata = PedirporPantalla()
+        PintaHorario().tablita(patata.dameHorario())
 
 
-    var array: Array<String> = arrayOf("aaaaaaaaaaaaaaaaa", "bbbbbbbbbbbbbbb", "cccccccccccxxxx")
+   /* var array: Array<String> = arrayOf("aaaaaaaaaaaaaaaaa", "bbbbbbbbbbbbbbb", "cccccccccccxxxx")
     var ejemplo = hacerHorario()
     println(ejemplo.ArrayHorario)
 
@@ -29,6 +26,6 @@ fun main() {
         }
     }.render(StringBuilder())
 
-    println(h)
+    println(h)*/
 
 }

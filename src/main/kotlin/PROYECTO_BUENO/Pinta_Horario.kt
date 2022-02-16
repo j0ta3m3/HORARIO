@@ -4,14 +4,14 @@ import de.m3y.kformat.Table
 import de.m3y.kformat.table
 
 
-class PintaHorario(array: Array<String>){
+class PintaHorario(){
 
-
+fun tablita(listita: Horario) {
     var h = table {
-        header(array[0])
+        header(listita.Horario[0])
 
-        row(array[1])
-        row(array[2])
+        row(listita.Horario[1])
+        row(listita.Horario[2])
 
         hints {
             //   alignment("A", Hints.Alignment.LEFT)
@@ -20,7 +20,7 @@ class PintaHorario(array: Array<String>){
             borderStyle = Table.BorderStyle.SINGLE_LINE
         }
     }.render(StringBuilder())
-
-
+println(h)
+}
 
 }
