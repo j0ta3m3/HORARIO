@@ -11,12 +11,12 @@ class PintaHorario() {
     /**
      * @param tablita crea una tabla con formato, crea la cabecera y cada una de las columnas separadas por ||
      */
-    fun tablita(listita: Horario) {
+    fun tabla(lista: Horario) {
         var h = table {
-            header(listita.Horario[0])
-            listita.Horario.removeAt(0)
-            for (i in listita.Horario.indices) {
-                row(listita.Horario[i])
+            header(lista.Horario[0])
+            lista.Horario.removeAt(0)
+            for (i in lista.Horario.indices) {
+                row(lista.Horario[i])
             }
 
             hints {
