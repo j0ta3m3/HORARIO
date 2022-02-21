@@ -9,7 +9,7 @@ import de.m3y.kformat.table
 class PintaHorario() {
 
     /**
-     * @param tablita crea una tabla con formato, crea la cabecera y cada una de las columnas separadas por ||
+     * @param tabla crea una tabla con formato, crea la cabecera y cada una de las columnas separadas por ||
      */
     fun tabla(lista: Horario) {
         var h = table {
