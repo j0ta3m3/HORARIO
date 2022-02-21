@@ -11,14 +11,8 @@ fun main() {
 
     }
 
-    /* val string = "123-654321"
-     val parts = string.split("-").toTypedArray()
-     val part1 = parts[0] // 123
-     val part2 = parts[1] // 654321*/
-
-
     var patata = PedirporPantalla()
-    var patata2= splitLista(PintaHorario().tablita(patata.dameHorario()))
+    var patata2= PintaHorario().tablita(patata.dameHorario())
     patata2
 
 
