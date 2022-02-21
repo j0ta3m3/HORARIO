@@ -9,16 +9,18 @@ import de.m3y.kformat.table
 class PintaHorario() {
 
     /**
-     * @param tabla crea una tabla con formato, crea la cabecera y cada una de las columnas separadas por ||
+     * @param tablita crea una tabla con formato, crea la cabecera y cada una de las columnas separadas por ||
      */
     fun tabla(lista: Horario) {
+        var horario2 = listOf<String>()
         var h = table {
             header(lista.Horario[0])
             lista.Horario.removeAt(0)
-            for (i in lista.Horario.indices) {
-                row(lista.Horario[i])
-            }
+            for (horario2 in lista.Horario) {
 
+                row(*horario2.toTypedArray())
+
+            }
             hints {
                 borderStyle = Table.BorderStyle.SINGLE_LINE
             }
