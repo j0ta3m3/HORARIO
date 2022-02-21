@@ -1,0 +1,19 @@
+$dokka.format:javadoc-v1
+$dokka.linkExtension:html
+$dokka.location:////PointingToDeclaration/[root]/package-summary.html
+$dokka.location:/Cabecera///PointingToDeclaration/[root]/Cabecera.html
+$dokka.location:/Formatolinea///PointingToDeclaration/[root]/Formatolinea.html
+$dokka.location:/Lineas///PointingToDeclaration/[root]/Lineas.html
+$dokka.location:/PintarHorario///PointingToDeclaration/[root]/PintarHorario.html
+$dokka.location:/SacarHorario///PointingToDeclaration/[root]/SacarHorario.html
+$dokka.location:de.m3y.kformat/Table.BorderRenderer///PointingToDeclaration/de/m3y/kformat/Table.BorderRenderer.html
+$dokka.location:de.m3y.kformat/Table.BorderStyle.Companion///PointingToDeclaration/de/m3y/kformat/Table.BorderStyle.Companion.html
+$dokka.location:de.m3y.kformat/Table.BorderStyle///PointingToDeclaration/de/m3y/kformat/Table.BorderStyle.html
+$dokka.location:de.m3y.kformat/Table.Hints.Alignment///PointingToDeclaration/de/m3y/kformat/Table.Hints.Alignment.html
+$dokka.location:de.m3y.kformat/Table.Hints.Key///PointingToDeclaration/de/m3y/kformat/Table.Hints.Key.html
+$dokka.location:de.m3y.kformat/Table.Hints///PointingToDeclaration/de/m3y/kformat/Table.Hints.html
+$dokka.location:de.m3y.kformat/Table.Line///PointingToDeclaration/de/m3y/kformat/Table.Line.html
+$dokka.location:de.m3y.kformat/Table.Row///PointingToDeclaration/de/m3y/kformat/Table.Row.html
+PROYECTO_BUENO
+de.m3y.kformat
+

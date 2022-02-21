@@ -7,5 +7,6 @@ interface pantalla {
     var forma: format
     fun pedircabecera(): List<String> {
         return forma.formateo("")
+
     }
 }

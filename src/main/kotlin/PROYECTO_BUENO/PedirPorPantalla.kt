@@ -1,5 +1,8 @@
 package PROYECTO_BUENO
 
+/**
+ * @param PedirporPantalla pide al usuario datos que pasaran a formar parte del horario
+ */
 class PedirporPantalla() : LeerHorario {
     override fun dameHorario(): Horario {
 
@@ -28,6 +31,9 @@ class PedirporPantalla() : LeerHorario {
 
     }
 
+    /**
+     * @toString esta funcion devuelve el horario en string
+     */
     override fun toString(): String {
         return dameHorario().Horario.toString()
     }

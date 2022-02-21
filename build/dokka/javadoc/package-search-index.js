@@ -1,0 +1,1 @@
+var packageSearchIndex = [{"l":"[root]","url":"[root]/package-summary.html"}, {"l":"de.m3y.kformat","url":"de/m3y/kformat/package-summary.html"}, {"l":"PROYECTO_BUENO","url":"PROYECTO_BUENO/package-summary.html"}, {"l":"All packages","url":"index.html"}]
