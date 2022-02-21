@@ -22,24 +22,4 @@ class Horario() {
         return lista
     }
 
-
-    /**
-     * @param pedir pide que se introduzca algo por pantalla una vez, mientras no sea en blanco o null el
-     * bucle seguirá ejecuntándose
-     */
-    fun pedir() {
-
-        do{
-            println("Introduzca un horario")
-            val entrada = readln()
-           val dato= Horario().formateo(entrada)
-            Horario().Horario.add(dato.toString())
-            contador++
-
-        } while (!entrada.isNullOrBlank())
-
-    }
-
-
-
 }
