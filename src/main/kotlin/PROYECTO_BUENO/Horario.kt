@@ -10,16 +10,6 @@ import kotlin.math.max
  */
 class Horario() {
 
-    var Horario = mutableListOf<String>()
-
-    var contador = 0
-
-    /**
-     * @param formateo elimina el punto y coma de la cadena string que se pasa por pantalla
-     */
-     fun formateo(formateo: String): List<String> {
-        val lista: List<String> = formateo.split(";")
-        return lista
-    }
+    var Horario = mutableListOf<List<String>>()
 
 }

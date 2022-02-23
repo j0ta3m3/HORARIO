@@ -6,26 +6,25 @@ package PROYECTO_BUENO
 class PedirporPantalla() : LeerHorario {
     override fun dameHorario(): Horario {
 
-
         var horarioLleno = Horario()
         var salir = false
 
+
         do {
-            var columna: String
             println("Escriba una columna para rellenar el horario, para terminar escriba en blanco")
-            columna = readln()
+
+            var columna: String = readln()
+
             if (columna == "") {
                 salir = true
             } else {
-                 columna = columna.split(";").toString()
-                horarioLleno.Horario.add(columna )
+                var columna1 = columna.split(";")
+                horarioLleno.Horario.add(columna1)
 
             }
 
-
-
         } while (salir == false)
-       // println(horarioLleno.Horario)
+
         return horarioLleno
 
 
