@@ -3,9 +3,10 @@ package PROYECTO_BUENO
 
 fun main() {
 
-    var horario = PedirporPantalla()
-    var horarioP= PintaHorario().tabla(horario.dameHorario())
-    horarioP
+    var horario = PedirporPantalla().dameHorario()
 
+        var pinta = PintaHorario()
+        pinta.tabla(horario)
 
 }
+
