@@ -1,0 +1,17 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:PROYECTO_BUENO////PointingToDeclaration/-h-o-r-a-r-i-o/PROYECTO_BUENO/index.html
+$dokka.location:PROYECTO_BUENO//main/#/PointingToDeclaration/-h-o-r-a-r-i-o/PROYECTO_BUENO/main.html
+$dokka.location:PROYECTO_BUENO/Horario///PointingToDeclaration/-h-o-r-a-r-i-o/PROYECTO_BUENO/-horario/index.html
+$dokka.location:PROYECTO_BUENO/Horario/Horario/#/PointingToDeclaration/-h-o-r-a-r-i-o/PROYECTO_BUENO/-horario/-horario.html
+$dokka.location:PROYECTO_BUENO/LeerHorario///PointingToDeclaration/-h-o-r-a-r-i-o/PROYECTO_BUENO/-leer-horario/index.html
+$dokka.location:PROYECTO_BUENO/LeerHorario/dameHorario/#/PointingToDeclaration/-h-o-r-a-r-i-o/PROYECTO_BUENO/-leer-horario/dame-horario.html
+$dokka.location:PROYECTO_BUENO/PedirporPantalla///PointingToDeclaration/-h-o-r-a-r-i-o/PROYECTO_BUENO/-pedirpor-pantalla/index.html
+$dokka.location:PROYECTO_BUENO/PedirporPantalla/PedirporPantalla/#/PointingToDeclaration/-h-o-r-a-r-i-o/PROYECTO_BUENO/-pedirpor-pantalla/-pedirpor-pantalla.html
+$dokka.location:PROYECTO_BUENO/PedirporPantalla/dameHorario/#/PointingToDeclaration/-h-o-r-a-r-i-o/PROYECTO_BUENO/-pedirpor-pantalla/dame-horario.html
+$dokka.location:PROYECTO_BUENO/PedirporPantalla/toString/#/PointingToDeclaration/-h-o-r-a-r-i-o/PROYECTO_BUENO/-pedirpor-pantalla/to-string.html
+$dokka.location:PROYECTO_BUENO/PintaHorario///PointingToDeclaration/-h-o-r-a-r-i-o/PROYECTO_BUENO/-pinta-horario/index.html
+$dokka.location:PROYECTO_BUENO/PintaHorario/PintaHorario/#/PointingToDeclaration/-h-o-r-a-r-i-o/PROYECTO_BUENO/-pinta-horario/-pinta-horario.html
+$dokka.location:PROYECTO_BUENO/PintaHorario/tabla/#PROYECTO_BUENO.Horario/PointingToDeclaration/-h-o-r-a-r-i-o/PROYECTO_BUENO/-pinta-horario/tabla.html
+PROYECTO_BUENO
+
